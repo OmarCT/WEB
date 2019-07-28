@@ -1,0 +1,87 @@
+/* Etiqueta */
+body {
+    background-color: #ccb9bc;
+    padding: 1%;
+    margin: 10%;
+    text-align: center; 
+}
+
+p {
+    color: #102027;
+}
+
+h1 {
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, footer, section, aside, nav, article {
+    /*border: 1pt solid #102027;*/
+    display: block;
+} 
+
+/* ID */
+#cabecera {
+    text-align: center;
+    color: #fff3e0;
+    background-color: #870000;
+    font-family: 'Advent Pro';
+    font-size: 24pt;
+    padding: 1%
+}
+
+#seccion {
+    width: 80%;
+    float: left;
+}
+
+/* Clase */
+
+.internos {
+    font-size: 130%
+}
+
+.menu {  
+    background: #cccccc;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li{
+    list-style: none;
+    padding-right: 13%;
+    padding-left: 13%;
+    
+    font: bold;
+    display: inline-block;
+    /* border: 1px solid #000000; */
+}
+
+.menu ul {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.lateral {
+    width: 19%;
+    float: right;
+}
+
+.lateral li {
+    list-style: none;
+    text-align: left;
+}
+
+.pie {
+    clear: both;    
+}
